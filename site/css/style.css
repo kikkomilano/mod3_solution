@@ -1,0 +1,132 @@
+<style>
+
+
+.container-fluid {
+
+  max-width: 1200px;
+  padding: 0;
+
+}
+
+#header-nav {
+
+	background-color:  #808080;
+  border-radius:  0px;
+  border:  0px; 
+  
+  }
+
+#navbar-brand {
+ 
+ padding: 15px;
+
+}
+
+h3 {
+	margin-top:  0;
+	color:  #000;
+}
+
+section {
+	padding:  15px;
+	background-color:#808080;
+
+}
+
+
+.navbar-brand h1 { /* Company name*/
+  color: #000;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+   
+
+}
+
+.navbar-default .navbar-toggle {
+
+   border:  2px solid #000;
+	 
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	  border:  1px solid;
+	  
+  
+} 
+
+
+#nav-list {
+  list-style: none;
+  padding: 0 0 0 0;
+  margin-bottom:  0;
+  
+
+
+}
+
+#nav-list a {
+  border: 1px solid;
+  background-color: #fff;
+  color: #951C49;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+
+}
+
+#nav-list a:hover {
+  background: #e7e7e7;
+  text-decoration:  none;
+}
+
+
+.navbar-header button.navbar-toggle {
+  clear: both; 
+  margin-top: -30px;
+}
+
+
+.navbar-collapse { 
+
+  padding: 0 0 0 0;
+
+ }
+
+
+ @media (max-width:768px) {
+   
+   .navbar-default .navbar-toggle:hover {
+   border:  2px solid #fff;
+   background-color: #808080;
+   
+}
+
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+
+   border:  2px solid #fff;
+   
+   
+}
+
+
+   .navbar-default .navbar-toggle:focus {
+   border:  2px solid #fff;
+   background-color: #808080;
+   
+}
+
+
+.navbar-default .navbar-toggle:focus .icon-bar {
+
+   border:  2px solid #fff;
+   
+   
+}
+}
+  </style>
+
+
